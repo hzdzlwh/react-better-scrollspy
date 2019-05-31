@@ -1,0 +1,33 @@
+.sidebar {
+  position: fixed;
+  top: 30px;
+  left: 10px;
+  max-width: 230px;
+  font-size: 18px;
+}
+.menu {
+  padding: 0;
+  list-style: none;
+}
+.current-section {
+  padding-top: 50px;
+}
+.current-section input {
+  max-width: 3em;
+}
+.menu-item {
+  margin-bottom: 20px;
+}
+.menu-item a {
+  cursor: pointer;
+}
+.main {
+  margin-left: 300px;
+  font-size: 25px;
+}
+.customActive {
+  color: #178ce6;
+  border-left: 1px solid #178ce6;
+  padding-left: 5px;
+  transition: all 0.5s;
+}
